@@ -1,6 +1,6 @@
-![Alt text](/Users/jasmineennabe/Documents/School/NPGRAD/Spring-2021/wsp/GitHub/WSP_Class/F4892AE0-6987-484E-87AC-2FDCCABA4F61.jpeg) 
+![Me and my cat](jasmineennabe/Documents/School/NPGRAD/Spring-2021/wsp/GitHub/WSP_Class/F4892AE0-6987-484E-87AC-2FDCCABA4F61.png) 
 
-## Hello! I’m Jasmine, and here is a picture of me and my sweet kitten, Papa.   		  
+## Hello! I’m Jasmine, and here is a picture of me and my kitten, Papa.   		  
 
 #### A few years ago, I tried teaching myself how to code HTML with the help from Codecademy. I didn’t complete any specific course because I was in school during that time, but I had the interest to learn. I actually just graduated in the spring ’20 from SUNY New Paltz with a Bachelor’s Degree in Philosophy. I wanted to pursue something more pragmatic, and with my previous interest in Computer Science, and the fact that SUNY New Paltz has a Computer Science Graduate program, I took a leap to pursue a new career. Last fall was my first semester in the Graduate Computer Science program here at New Paltz, and I took ‘Database Designs’, ‘Computer Systems’ and ‘Programming and Data Structures’. To help myself through those courses and the courses I’m taking this semester (this course, ‘Machine Learning’, and ‘Cloud Systems and Applications’), I have completed a number of courses on LinkedIn Learning on subjects such as HTML, CSS, Java, Python, JavaScript, Data Structures & Algorithms, Git and GitHub. 
 
