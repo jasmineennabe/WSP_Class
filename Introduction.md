@@ -1,4 +1,4 @@
-![Alt text](F4892AE0-6987-484E-87AC-2FDCCABA4F61.jpeg)
+![Alt text](/Users/jasmineennabe/Documents/School/NPGRAD/Spring-2021/wsp/GitHub/WSP_Class/F4892AE0-6987-484E-87AC-2FDCCABA4F61.jpeg) 
 
 ## Hello! I’m Jasmine, and here is a picture of me and my sweet kitten, Papa.   		  
 
