@@ -1,4 +1,4 @@
-![Me and my cat](jasmineennabe/Documents/School/NPGRAD/Spring-2021/wsp/GitHub/WSP_Class/F4892AE0-6987-484E-87AC-2FDCCABA4F61.png) 
+![Me and my cat](/Users/jasmineennabe/Documents/meAndP.png) 
 
 ## Hello! I’m Jasmine, and here is a picture of me and my kitten, Papa.   		  
 
