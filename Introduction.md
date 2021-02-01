@@ -1,4 +1,4 @@
-![Me and my cat](/Users/jasmineennabe/Documents/meAndP.png)
+![Me and my cat](meAndP.png)
 
 ## Hello! I’m Jasmine, and here is a picture of me and my kitten, Papa.   		  
 
