@@ -1,9 +1,9 @@
 <template>
+  <div class="contact">
+      <h1>This is the contact page</h1>
 
-  <div class="about">
-    <h1>This is the about page</h1>
+
   </div>
-
 </template>
 
 <script>

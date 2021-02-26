@@ -1,9 +1,11 @@
 <template>
+  
+  <div class="report">
+      <h1>Report an issue here</h1>
 
-  <div class="about">
-    <h1>This is the about page</h1>
+
+
   </div>
-
 </template>
 
 <script>

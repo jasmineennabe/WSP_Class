@@ -1,8 +1,12 @@
 <template>
+    <div class="jobs">
+        <h1>This is the jobs page</h1>
 
-  <div class="about">
-    <h1>This is the about page</h1>
-  </div>
+
+
+    </div>
+
+
 
 </template>
 
