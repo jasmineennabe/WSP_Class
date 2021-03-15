@@ -1,12 +1,25 @@
 <template>
   <div class="nav">
     <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+          <i class="fas fa-globe-americas"></i>
+              WSP In Class App
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" :class="{ 'is-active': isActive }" @click.prevent="isActive = !isActive" >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div class="navbar-menu" :class="{ 'is-active': isActive }">
 
           <div class="navbar-start">
             <a class="navbar-item">
-              <i class="fas fa-globe-americas"></i>
-              WSP In Class App
+              <!-- <i class="fas fa-globe-americas"></i>
+              WSP In Class App -->
             </a>
 
             <router-link tag="a" class="navbar-item" to="/">
@@ -37,6 +50,9 @@
                   Report an Issue
                 </router-link>
               </div>
+              <router-link class="navbar-item" tag="a" to="/mywall">
+                My Wall    
+              </router-link>
             </div>
           </div>
 
@@ -59,7 +75,9 @@
 
 <script>
 export default {
-    
+    data: ()=> ({
+        isActive: false
+    }),
 }
 </script>
 
