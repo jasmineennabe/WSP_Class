@@ -17,7 +17,8 @@ const app = express.Router();
                 handle: req.body.handle,
                 pic:  req.body.pic,
             }) );
-            console.log(req.headers);
+            console.log(req.headers)
+            console.log(req.body);
         })
         .patch('/:user_id', (req, res)=> res.send( model.Update(
             req.params.user_id,
