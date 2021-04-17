@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Buefy from "buefy"
 import App from './App.vue'
 import router from './router'
+import FriendsShort from "./components/FriendsShort";
 
 import 'bulma';
 import 'buefy/dist/buefy.css'
