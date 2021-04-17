@@ -20,8 +20,8 @@
 
 <script>
     import ContentCard from '../components/ContentCard'
-import ContentCreation from '../components/ContentCreation.vue'
-import FriendsShort from '../components/FriendsShort.vue'
+    import ContentCreation from '../components/ContentCreation.vue'
+    import FriendsShort from '../components/FriendsShort.vue'
 export default {
     data: ()=> ({
         newPost: {
