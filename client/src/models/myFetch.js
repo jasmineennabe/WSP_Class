@@ -1,6 +1,6 @@
 
 
-export const API_ROOT = process.env.VUE_APP_API_ROOT;;
+export const API_ROOT = process.env.VUE_APP_API_ROOT;
 
 export function api(url){
 
