@@ -13,6 +13,11 @@ const app = express.Router();
         .post('/', (req, res)=> { 
             res.send( model.Add(req.body));
         })
+        .post('/register', (req, res, next)=> {
+            model.Register(req.body)
+            .then(user=> res.send( user  ))
+            .catch(next);
+        })
         .post('/login', (req, res)=> { 
             res.send( model.Login(req.body.handle, req.body.password) )
         })
