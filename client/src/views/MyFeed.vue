@@ -22,7 +22,7 @@
     import ContentCard from '../components/ContentCard'
     import ContentCreation from '../components/ContentCreation.vue'
     import FriendsShort from '../components/FriendsShort.vue'
-    import { AddPost, GetMyPosts } from "../models/Posts";
+    import { AddPost, DeletePost, GetMyPosts } from "../models/Posts";
     import Session from '../models/Session';
     
 
@@ -42,10 +42,14 @@ export default {
             this.posts.unshift(post);
             this.newPost = { user: Session.user }
         },
+        async deletePost(i) {
+            await DeletePost(i);
+            this.posts.splice(i, 1);
+        },
         getImgUrl(value) {
-        value += 50
-        return `https://picsum.photos/id/10${value}/1230/500`
-    },
+            value += 50
+            return `https://picsum.photos/id/10${value}/1230/500`
+        },
         switchGallery(value) {
             this.gallery = value
             if (value) {
