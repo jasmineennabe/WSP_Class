@@ -4,11 +4,17 @@
 import { api } from "../models/myFetch";
 
 export function GetMyPosts() {
-    return api("posts")
+    return api("posts");
 }
+
 export function GetPostsForUser(handle) {
-    return api(`posts/${handle}`)
+    return api(`posts/${handle}`);
 }
+
 export function GetMyFeed() {
     return api("posts/feed");
+}
+
+export function AddPosts(post) {
+    return api("posts", post);
 }
