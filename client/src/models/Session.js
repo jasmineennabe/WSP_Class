@@ -7,7 +7,7 @@ import { api } from "./myFetch";
 const Session = {
     user: null,
     token: null,
-
+    nextRoute: null,
     message: []
 }
 
