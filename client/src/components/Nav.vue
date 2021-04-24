@@ -23,7 +23,7 @@
             </a>
 
             <router-link tag="a" class="navbar-item" to="/">
-              Home
+              Feed
             </router-link>
 
             <router-link tag="a" class="navbar-item" to="/documentation">
