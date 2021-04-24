@@ -15,6 +15,6 @@ export function GetMyFeed() {
     return api("posts/feed");
 }
 
-export function AddPosts(post) {
+export function AddPost(post) {
     return api("posts", post);
 }
