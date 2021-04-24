@@ -23,11 +23,13 @@
     import ContentCreation from '../components/ContentCreation.vue'
     import FriendsShort from '../components/FriendsShort.vue'
     import { AddPost, GetMyPosts } from "../models/Posts";
+    import Session from '../models/Session';
+    
 
 export default {
     data: ()=> ({
         newPost: {
-            user: { }
+            user: Session.user,
         },
         gallery: false,
     }),
@@ -38,7 +40,7 @@ export default {
         async addPost(){
             const post = await AddPost(this.newPost)
             this.posts.unshift(post);
-            this.newPost = { user: {} }
+            this.newPost = { user: Session.user }
         },
         getImgUrl(value) {
         value += 50
